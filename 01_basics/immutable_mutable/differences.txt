@@ -1,0 +1,27 @@
+There are two data types in python. 
+1. Mutable: 
+    Data types in Python are categorized into mutable and immutable data types. Mutable data types are those whose values can be changed, whereas immutable data types are ones in which the values can't be changed.
+
+2. Immutable:
+    An immutable type is a data type whose value cannot be changed after it is created. When you try to modify an immutable object, a new object is created instead. 
+
+
+Examples of Mutable data types:
+- List
+- set
+- dictionary
+- bytearray
+- array
+
+Examples of Immutable data types:
+- integers
+- floating-point numbers
+- boolean
+- strings
+- tuples
+- frozen set
+- bytes
+
+
+Strings and Integers are immutable and the logic is explained in the image backend_py_function.png.
+
