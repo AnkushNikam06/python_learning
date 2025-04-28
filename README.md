@@ -1,4 +1,5 @@
 This is python learning course notes which is in progress.
+
 01_basics: 
 - This folder includes information about mutable and immutable data types in python.
 - One practical is also included regarding print function to print hello_world.
