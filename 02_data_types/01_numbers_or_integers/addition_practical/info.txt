@@ -1,0 +1,2 @@
+This directory is created to add the files used while practicing the basic labs from the internet
+https://www.geeksforgeeks.org/python-programming-examples/
