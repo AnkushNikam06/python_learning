@@ -75,4 +75,21 @@ e.g. countries = {"asian":"india", "european":"london", "asia_pacific":"australi
 
 - delete option: You can also use a delete operation to remove the item.
             e.g. del countries["asia_pacific"]                                    
-        It will remove asia_pacific item from your dictionary.
+        It will remove asia_pacific item from your dictionary as well as python backend memory.
+
+- Add single value for multiple keys: Yes, you can add single value for multiple keys like below:
+            e.g. countries = ["India", "Nepal", "Bhutan"]
+                 default_value = "Asian"
+                 new_dict = dict.fromkeys(countries, default_value)
+        Then it will print the anwer like below:
+                 print(new_dict) >>> answer: {'India':'Asian', 'Nepal':'Asian', 'Bhutan':'Asian'}
+
+                                                IF
+
+- You add the countries instead of default_value while definining new_dict:
+           e.g.  countries = ["India", "Nepal", "Bhutan"]
+                 default_value = "Asian"
+                 new_dict = dict.fromkeys(countries, countries)
+        Then the result will be like below:
+                 print(new_dict) 
+        >>> answer: {'India': ['India', 'Nepal', 'Bhutan'], 'Nepal': ['India', 'Nepal', 'Bhutan'], 'Bhutan': ['India', 'Nepal', 'Bhutan']}
